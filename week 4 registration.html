@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+
+    <form>
+     <div>
+        <label for="first-name">First Name:</label>
+        <input name="first-name" type="text" placeholder="John" id="first-name" required>
+        <label for="last-name"> Last Name:</label>
+        <input name="last-name" type="text" placeholder="Smith" id="last-name" required>
+    </div>
+
+        <div>
+            <label for="radio-choice-1">Male</label>
+            <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1">
+        
+            <label for="radio-choice-2">Female</label>
+            <input type="radio" name="radio-choice" id="radio-choice-2" value="-choice-2">
+
+            <label for="radio-choice-3">Other</label>
+            <input type="radio" name="radio-choice" id="radio-choice-3" value="choice-3">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="your password" minlength="5" maxlength="10" required>
+        </div>
+
+        <div>
+            <label for="select-choice">Birthday:</label>
+            <select name="select-choice" id="select-choice">
+                <option value="0" selected disabled>Month</option>
+                <option value="january">Jan</option>
+                <option value="february">Feb</option>
+                <option value="march">Mar</option>
+            </select>
+
+            <select name="select-choice-2" id="day">
+                <option value="0" selected disabled>Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <select name="select-choice-3" id="year">
+                <option value="0" selected disabled>Year</option>
+                <option value="1">2010</option>
+                <option value="2">2009</option>
+                <option value="3">2008</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="checkbox">I agree to the terms and conditions</label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
+
+        <div>
+            <input type="submit" value="submit">
+        </div>
+    </form>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
